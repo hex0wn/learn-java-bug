@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd        http://dubbo.apache.org/schema/dubbo        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <dubbo:protocol host="10.112.32.31" />
+    <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <dubbo:application name="consumer-of-helloworld-app"  />
+ 
+    <!-- 使用multicast广播注册中心暴露发现服务地址 
+    <dubbo:registry address="multicast://224.5.6.7:1234?unicast=false"/> 
+    -->
+
+    <dubbo:registry address="N/A"/>
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="myService" check="false" interface="com.satan.DefaultService" version="1.0" url="dubbo://127.0.0.1:20880"/>
+</beans>
