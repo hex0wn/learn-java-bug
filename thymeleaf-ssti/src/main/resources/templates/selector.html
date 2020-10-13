@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div th:object="${obj}">
+    <p><span th:text="${fieldName}"></span>: <span th:text="*{__${fieldName}__}">Sebastian</span>.</p>
+</div>
+
+</body>
+</html>
