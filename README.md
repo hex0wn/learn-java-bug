@@ -7,7 +7,7 @@
 * [shiro auth bypass](shiro-auth)
 * [springboot actuator rce by spring cloud & h2](springboot-cloud-h2)
 * [springboot actuator rce by spring cloud & yaml](springboot-cloud-yaml)
-* [springboot actuator rce by jolokia & logback]
+* [springboot actuator rce by jolokia & logback](springboot-jolokia-logback)
 * [springboot actuator rce by jolokia & realm](springboot-jolokia-realm)
 * [springboot spel](springboot-spel)
 * [thymeleaf ssti](thymeleaf-ssti)
