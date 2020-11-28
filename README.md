@@ -12,3 +12,6 @@
 * [springboot spel](springboot-spel)
 * [thymeleaf ssti](thymeleaf-ssti)
 * [xstream CVE-2020-26217](xstream-poc)
+
+## Sponsored By
+[JetBrains](https://www.jetbrains.com/)
