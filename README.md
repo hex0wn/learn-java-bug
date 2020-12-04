@@ -3,6 +3,7 @@
 * [dubbo](dubbo-poc)
 * [f5 BIGIP](f5-bigip)
 * [fastjson](fastbug)
+* [mysql-connector-java rce & fileread](jdbc-mysql)
 * [rmi](rmi)
 * [shiro auth bypass](shiro-auth)
 * [springboot actuator rce by spring cloud & h2](springboot-cloud-h2)
@@ -12,6 +13,3 @@
 * [springboot spel](springboot-spel)
 * [thymeleaf ssti](thymeleaf-ssti)
 * [xstream CVE-2020-26217](xstream-poc)
-
-## Sponsored By
-[JetBrains](https://www.jetbrains.com/)
