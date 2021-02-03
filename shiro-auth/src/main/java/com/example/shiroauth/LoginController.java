@@ -4,7 +4,7 @@ import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,5 +31,10 @@ public class LoginController {
     @GetMapping("/login")
     public String  login() {
         return "please login!";
+    }
+
+    @GetMapping("/test/")  // CVE-2020-17523
+    public String test(@RequestParam String name) {
+        return "test " + name;
     }
 }

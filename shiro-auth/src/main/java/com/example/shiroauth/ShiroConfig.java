@@ -38,6 +38,7 @@ public class ShiroConfig {
         Map<String, String> map = new LinkedHashMap<>();
         map.put("/doLogin", "anon");
         map.put("/hello/*", "authc");
+        map.put("/test/*", "authc"); // CVE-2020-17523
         bean.setFilterChainDefinitionMap(map);
         return bean;
     }
