@@ -19,6 +19,7 @@
 * [springboot spel](springboot-spel)
 * [thymeleaf ssti](thymeleaf-ssti)
 * [xstream CVE-2020-26217](xstream-poc)
+* [log4j rce CVE-2021-44228](log4j)
 
 ### 其他
 * [调试漏洞时如何方便的切换JDK版本](http://x2y.pw/2020/08/24/JDK%E5%A4%9A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2/)
