@@ -45,7 +45,7 @@
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring</artifactId>
             <!--<version>1.6.0</version>-->
-            <version>1.7.0</version>
+            <version>1.7.1</version>
         </dependency>
     </dependencies>
 
